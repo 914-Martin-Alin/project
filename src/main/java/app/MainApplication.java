@@ -28,7 +28,7 @@ public class MainApplication {
         //TemaFileRepository temaFileRepository = new TemaFileRepository(filenameTema);
         //NotaValidator notaValidator = new NotaValidator(studentFileRepository, temaFileRepository);
         //NotaFileRepository notaFileRepository = new NotaFileRepository(filenameNota);
-
+//testing commit on master
         StudentXMLRepo studentXMLRepository = new StudentXMLRepo(filenameStudent);
         TemaXMLRepo temaXMLRepository = new TemaXMLRepo(filenameTema);
         NotaValidator notaValidator = new NotaValidator(studentXMLRepository, temaXMLRepository);
