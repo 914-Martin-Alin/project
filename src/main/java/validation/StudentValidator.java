@@ -1,7 +1,7 @@
 package validation;
 
 import domain.Student;
-
+//Validators need to be changed to accomodate more scenarios
 public class StudentValidator implements Validator<Student> {
 
     /**
@@ -21,7 +21,7 @@ public class StudentValidator implements Validator<Student> {
             throw new ValidationException("Nume incorect!");
         }
         if(entity.getGrupa() < 0) {
-            throw new ValidationException("Grupa incorecta!");
+            throw new ValidationException("Grupa incorecta!"); // group number should not go up to infinity
         }
         if(entity.getEmail() == null){
             throw new ValidationException("Email incorect!");

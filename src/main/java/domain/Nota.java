@@ -1,5 +1,5 @@
 package domain;
-
+//Grade class
 import repository.HasID;
 
 import java.time.LocalDate;

@@ -1,5 +1,5 @@
 package domain;
-
+//student class
 import repository.HasID;
 
 public class Student implements HasID<String> {
